@@ -6,6 +6,7 @@ if [ "$#" -ne 2 ]; then
 	exit 1
 fi
 
+
 #checking if the given string is non empty or empty
 if [ ! -n "$2" ]; then 
 	echo "Second Argument $2 is empty string"
